@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>สุขสันต์วันเกิด 1 มิถุนายน 🎂</title>
+<title>สุขสันต์วันเกิด 1 ธันวาคม 🎂</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Sarabun:wght@300;400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <style>
@@ -61,15 +61,15 @@ const colors=['#ffe066','#c9963a','#f7b24b','#fff0b0','#f09e38','#ffd580'];
 for(let i=0;i<30;i++){const c=document.createElement('div');c.className='confetti';c.style.cssText=`left:${Math.random()*100}vw;background:${colors[Math.floor(Math.random()*colors.length)]};width:${6+Math.random()*6}px;height:${6+Math.random()*6}px;border-radius:${Math.random()>.5?'50%':'2px'};animation-duration:${5+Math.random()*8}s;animation-delay:${Math.random()*7}s;`;document.body.appendChild(c)}
 </script>
 <div class="container">
-  <div class="badge">✦ วันเกิดสุดพิเศษ ✦</div>
+  <div class="badge">✦ วันเกิด สุดพิเศษ ✦</div>
   <span class="big-cake">🎂</span>
   <h1 class="main-title">สุขสันต์วันเกิด</h1>
-  <p class="subtitle">1 มิถุนายน ปีนี้ · วันเกิด ของหนู</p>
+  <p class="subtitle">1 ธันวาคม ปีนี้ · วันเกิด ของหนู</p>
   <div class="divider"><span>🎉</span></div>
   <div class="milestone">
     <div class="milestone-num">1</div>
-    <div class="milestone-unit">มิถุนายน — วันพิเศษที่สุดของปี</div>
-    <div class="milestone-date">เกิดวันที่ 1 มิถุนายน ปีนี้ 🌟 วันนี้คือวันที่หนูรอ!</div>
+    <div class="milestone-unit">ธันวาคม — วันพิเศษที่สุดของปี</div>
+    <div class="milestone-date">เกิดวันที่ 1 ธันวาคม ปีนี้ 🌟 วันนี้คือวันที่หนูรอ!</div>
     <div class="candles">
       <div class="candle-wrap"><div class="flame">🔥</div><div class="candle-body"></div></div>
       <div class="candle-wrap"><div class="flame">🔥</div><div class="candle-body"></div></div>
@@ -78,7 +78,7 @@ for(let i=0;i<30;i++){const c=document.createElement('div');c.className='confett
   </div>
   <div class="letter-card">
     <p class="letter-text">
-      วันนี้เป็นวันที่พิเศษมากๆ เลยนะ — วันเกิดของหนูมาพร้อมกับเดือนแรกของฤดูร้อน เหมือนธรรมชาติเองก็อยากฉลองให้หนูด้วย 🌸<br><br>
+      วันนี้เป็นวันที่พิเศษมากๆ เลยนะ — วันเกิดของหนูมาพร้อมกับเดือนแรกของฤดูหนาว เหมือนธรรมชาติเองก็อยากฉลองให้หนูด้วย 🌸<br><br>
       ทุกวันที่ผ่านมา พี่รอวันนี้เสมอ เพราะ <span class="hl">วันเกิดของหนูคือวันที่พี่ดีใจที่สุดวันหนึ่ง</span><br><br>
       ขอให้วันนี้เต็มไปด้วยรอยยิ้ม เสียงหัวเราะ และความอบอุ่น ขอให้ทุกความฝันที่หนูตั้งใจเป็นจริงในปีนี้<br><br>
       <span class="hl">Happy Birthday</span> — ขอให้วันนี้เป็นวันของหนู และพี่ดีใจมากที่ได้รู้จักหนู 🥂🎁
@@ -86,7 +86,7 @@ for(let i=0;i<30;i++){const c=document.createElement('div');c.className='confett
     <p class="letter-sign">— ด้วยรักจากพี่นะ 🎀</p>
   </div>
   <div class="stats-row">
-    <div class="stat-box"><div class="stat-num">1</div><div class="stat-label">มิถุนายน</div></div>
+    <div class="stat-box"><div class="stat-num">1</div><div class="stat-label">ธันวาคม</div></div>
     <div class="stat-box"><div class="stat-num" id="daysOld">—</div><div class="stat-label">วันที่ผ่านมา</div></div>
     <div class="stat-box"><div class="stat-num">∞</div><div class="stat-label">ความสุข</div></div>
   </div>
@@ -95,19 +95,19 @@ for(let i=0;i<30;i++){const c=document.createElement('div');c.className='confett
     <p class="qr-desc"></p>
     <div id="qrcode"></div
     <div class="share-url" id="shareUrl"></div>
-    <button class="copy-btn" onclick="copyLink()">📋 คัดลอกลิงก์</button>
+    <button class="copy-btn" onclick="copyLink()">เด็กดื้อ</button>
   </div>
   <div class="footer-hearts">🎂 🎉 🎊 🎁 🎈</div>
 </div>
 <script>
 const today=new Date();
-const bday=new Date('2026-06-01');
+const bday=new Date('2026-12-01');
 const diff=Math.floor((today-bday)/86400000);
 document.getElementById('daysOld').textContent=diff>=0?diff+'':'🎂';
 const url=window.location.href;
 document.getElementById('shareUrl').textContent=url;
 new QRCode(document.getElementById('qrcode'),{text:url,width:180,height:180,colorDark:'#6b3a0f',colorLight:'#fdf9f0',correctLevel:QRCode.CorrectLevel.H});
-function copyLink(){navigator.clipboard.writeText(url).then(()=>{const b=document.querySelector('.copy-btn');b.textContent='✅ คัดลอกแล้ว!';setTimeout(()=>b.textContent='📋 คัดลอกลิงก์',2000)})}
+function copyLink(){navigator.clipboard.writeText(url).then(()=>{const b=document.querySelector('.copy-btn');b.textContent='มือสนจริงๆนะเรา💗!';setTimeout(()=>b.textContent='เด็กดื้อ',2000)})}
 </script>
 </body>
 </html>
